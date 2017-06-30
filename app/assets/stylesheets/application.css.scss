@@ -17,3 +17,37 @@
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
 
+.map {
+  position: relative;
+  width: 35%;
+}
+
+.map #map {
+  height: 100%;
+  width: 100%;
+}
+
+#searchFav {
+  display: block;
+  width: 100px;
+  position: absolute;
+}
+
+#searchFav a {
+  color: white;
+}
+
+#teachableLogo {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#searchDiv {
+  float: right;
+  width: 65%;
+}
+
+#search-form {
+  text-align: center;
+}

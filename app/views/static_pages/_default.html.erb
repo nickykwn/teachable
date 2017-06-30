@@ -1,12 +1,14 @@
-<div>
-  <%= image_tag("map.png", :alt => "map") %>
-  <%= image_tag("teachable-logo.png", :alt => "teachable-logo") %>
-  <div id="searchfav">
-    <a href="" "email me">Search</a>
-    <a href="" "">Favorites</a>
-  </div>
+<div id="searchDiv">
   <%= form_tag(favorites_path, :method => "get", id: "search-form") do %>
-    <%= text_field_tag :search, params[:search], placeholder: "Search Gems" %>
-    <%= submit_tag "Search", :name => nil %>
+  <%= text_field_tag :search, params[:search], placeholder: "Search Gems" %>
   <% end %>
 </div>
+<div class="map">
+  <%= image_tag("map.png", :id => "map") %>
+  <%= image_tag("teachable-logo.png", :id => "teachableLogo") %>
+  <div id="searchFav">
+      <a href="" "email me">Search</a>
+      <a href="" "">Favorites</a>
+  </div>
+</div>
+
