@@ -31,6 +31,9 @@
   display: block;
   width: 100px;
   position: absolute;
+  top: 200px;
+  right: 5px;
+  text-align: right;
 }
 
 #searchFav a {
@@ -46,6 +49,10 @@
 #searchDiv {
   float: right;
   width: 65%;
+}
+
+#searchDiv h1 {
+  text-align: center;
 }
 
 #search-form {

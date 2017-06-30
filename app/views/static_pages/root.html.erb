@@ -1,2 +1,7 @@
+<div id="searchDiv">
+  <h1>Search Gems</h1>
+  <%= form_tag(favorites_path, :method => "get", id: "search-form") do %>
+  <%= text_field_tag :search, params[:search], placeholder: "Search Gems" %>
+  <% end %>
+</div>
 <%= render 'default' %>
-<h1>Search Gems</h1>

@@ -1,0 +1,2 @@
+class SearchgemsController < ApplicationController
+end
